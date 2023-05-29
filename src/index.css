@@ -10,8 +10,6 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, <BrowserRouter basename="/your_repo_name/">
-  <App />
-</BrowserRouter>Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }

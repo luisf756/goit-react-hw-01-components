@@ -1,3 +1,5 @@
+import { Porfile } from "./porfile/Index";
+
 export const App = () => {
   return (
     <div
@@ -9,8 +11,10 @@ export const App = () => {
         fontSize: 40,
         color: '#010101'
       }}
-    >
+    > 
+    {Porfile}
       React homework template
     </div>
+
   );
 };
