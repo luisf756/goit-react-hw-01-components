@@ -1,7 +1,11 @@
 // import { FriendList } from "./friendList/Index";
 import { Porfile } from './porfile/Porfile';
-import {Statistics} from "./statistics/Index";
+import {Statistics} from "./statistics/Statistics";
 import data from 'data/data.json';
+import friends from 'data/friends.json'
+import { FriendList } from 'components/friendList/Index'
+import { TransactionHistory } from 'components/transactionHistory/Index';
+import transactions from 'data/transactions.json'
 
 const styleTest = {
   //   width:'100%',
@@ -54,6 +58,14 @@ export const App = ({ user }) => {
         </section>
         <section style={section}>
         <Statistics stats={data} />
+        </section>
+        <section style={section}>
+          <h2>Friend list</h2>
+          <FriendList friends={friends} />
+        </section>
+
+        <section>
+          <TransactionHistory items={transactions} />
         </section>
       </div>
     </div>
