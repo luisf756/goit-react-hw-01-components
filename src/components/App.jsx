@@ -3,8 +3,8 @@ import { Porfile } from './porfile/Porfile';
 import {Statistics} from "./statistics/Statistics";
 import data from 'data/data.json';
 import friends from 'data/friends.json'
-import { FriendList } from 'components/friendList/Index'
-import { TransactionHistory } from 'components/transactionHistory/Index';
+import { FriendList } from 'components/friendList/Friend'
+import { TransactionHistory } from 'components/transactionHistory/TransactionHistory';
 import transactions from 'data/transactions.json'
 
 const styleTest = {

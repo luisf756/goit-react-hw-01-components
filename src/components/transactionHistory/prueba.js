@@ -11,5 +11,5 @@ data=[
   const stat1 = data
       .filter((id,label,percentage)=> id == id-1)
     //   console.log(stat1.id)
-  const primero=data[0]
-  console.log(primero.id)
+  const primero=data[0].id
+  console.log(primero)
