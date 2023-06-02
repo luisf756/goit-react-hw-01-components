@@ -57,7 +57,12 @@
 
 td:nth-child(2) {
   border-left: 1px solid hsl(226, 78%, 25%);
+  /* background-color: rgba(188, 196, 204, 0.214); */
 }
 td:nth-child(3) {
   border-left: 1px solid hsl(226, 78%, 25%);
+}
+
+.tr:nth-child(2n){
+  background-color: rgba(188, 196, 204, 0.214);
 }
